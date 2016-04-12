@@ -1,0 +1,39 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: verdana;
+	box-sizing: border-box;
+}
+
+div.wrapper {
+	margin: 0 auto;
+	width:1024px;
+	margin-top:30px;
+	padding: 0 10px;
+}
+
+article.weatheContainer {
+	display:inline-block;
+	width:350px;
+	background-color: #F1F8E0;
+	padding:10px;
+	border-radius:5px;
+
+}
+
+article.weatheContainer h4 {
+	padding:5px 0;
+}
+
+ul.list {
+	list-style:none;
+	border-bottom:1px solid black;
+}
+
+ul.list li {
+	padding:5px 0;
+}
+
+ul.list li:not(:last-child) {
+	border-bottom:1px solid #BDBDBD;
+}
